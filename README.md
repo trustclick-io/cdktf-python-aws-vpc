@@ -70,8 +70,8 @@ tree .
 ├── modules
 └── main.py
 ```
-## Config .env file
-Open modules/.env file in your text editor and enter your variables.
+## Rename .env.sample file to .env
+Rename and change your setting 
 AWS_ACCESS_KEY
 AWS_SECRET_KEY
 ...
