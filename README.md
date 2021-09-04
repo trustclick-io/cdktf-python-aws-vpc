@@ -12,7 +12,7 @@ Start by creating a directory named cdktf-python for the project.
 
 ```
 $ mkdir cdktf-python
-$ cd learn-cdktf-python
+$ cd cdktf-python
 ```
 Inside the directory, run cdktf init with the python template. Use --local to store Terraform's state file on your machine instead of remotely in Terraform Cloud.
 
