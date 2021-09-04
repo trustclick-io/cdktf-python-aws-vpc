@@ -28,12 +28,13 @@ Run pipenv install to install the AWS provider you added to cdktf.json.
 $ pipenv install
 ```
 ## Config ENV
-Go to folder *modules*. Rename file .env.sample file to .env and change your setting 
+Go to folder *modules*. Rename file .env.sample file to .env and change your setting:
+```
 AWS_ACCESS_KEY
 AWS_SECRET_KEY
 ...
 REGION
-
+```
 ## Provision infrastructure
 Now that you have initialized the project with the AWS provider and written code to provision an instance, it's time to deploy it by running cdktf deploy. Remember to confirm the deploy with a yes
 ```
