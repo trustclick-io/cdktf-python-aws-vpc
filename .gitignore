@@ -1,3 +1,11 @@
+#cdktf file
+dist/
+imports/*
+!imports/__init__.py
+.terraform
+cdktf.out
+cdktf.log
+*terraform.*.tfstate*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
